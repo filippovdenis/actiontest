@@ -36,4 +36,4 @@ jobs:
           # Optional, literal inventory file contents
           inventory: |
             [all]
-            ec2-3-126-249-85.eu-central-1.compute.amazonaws.com
+            ec2-3-126-249-85.eu-central-1.compute.amazonaws.com ansible_ssh_user=vagrant
